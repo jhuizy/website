@@ -66,8 +66,8 @@ Resources:
                   - logs:PutLogEvents
                 Effect: Allow
                 Resource:
-                  - !Sub 'arn:aws:logs:${AWS::Region}:${AWS::AccountId}:log-group:/aws/codebuild/${AWS::StackName}-build-docker-codebuild'
-                  - !Sub 'arn:aws:logs:${AWS::Region}:${AWS::AccountId}:log-group:/aws/codebuild/${AWS::StackName}-build-docker-codebuild:*'
+                  - !Sub 'arn:aws:logs:${AWS::Region}:${AWS::AccountId}:log-group:/aws/codebuild/${AWS::StackName}-build-jekyll-codebuild'
+                  - !Sub 'arn:aws:logs:${AWS::Region}:${AWS::AccountId}:log-group:/aws/codebuild/${AWS::StackName}-build-jekyll-codebuild:*'
             Version: '2012-10-17'
           PolicyName: !Sub 'codebuild-log-access-${AWS::StackName}'
         - PolicyDocument:
@@ -80,7 +80,7 @@ Resources:
                 Resource: !Sub 'arn:aws:s3:::${BuildArtifactsBucket}/*'
             Version: '2012-10-17'
           PolicyName: !Sub 'codebuild-s3-access-${AWS::StackName}'
-      RoleName: !Sub '${AWS::StackName}-codebuild-build-docker-service-role'
+      RoleName: !Sub '${AWS::StackName}-codebuild-build-jekyll-service-role'
     Type: AWS::IAM::Role
   CodePipelinePipeline:
     Properties:
