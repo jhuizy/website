@@ -35,9 +35,9 @@ I am a software developer from Perth. I am interested in both front and back end
 - Docker / docker-compose
 - Vagrant
 - AWS
-- - CloudFormation
-- - 3 tier applications
-- - CICD
+  - CloudFormation
+  - 3 tier applications
+  - CICD
 - VSCode
 - Vim
 - Intellij
