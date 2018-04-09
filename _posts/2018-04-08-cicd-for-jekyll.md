@@ -39,6 +39,9 @@ phases:
   install:
     commands:
       - gem install jekyll  
+  pre_build:
+    commands:
+      - bundle install
   build:
     commands: 
       - echo "Building site"
