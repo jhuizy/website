@@ -3,23 +3,42 @@ layout: page
 title: About
 sidebar_link: true
 ---
+- Name: Jordan
+- [Github](https://github.com/jhuizy)
+- [LinkedIn](https://www.linkedin.com/in/jordan-huizenga-610bab101/)
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it
-  for your own use upon downloading. Carry on!
-</p>
+## About
 
-To make pages show up in the sidebar, add `sidebar_link: true` to the front
-matter.
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I am a software developer from Perth. I am interested in both front and back end development. I enjoy working with functional languages and continue to push for fp in production applications.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+## Experience
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+### Langs
+- Java
+- Kotlin
+- Scala
+- Javascript
+- Haskell
+- Ruby
+- Swift
 
+### Frameworks
+- Android
+- Node.js
+- Spring Boot
+- Rails
+- iOS 
+- http4s
+- React
 
-[jekyll-organization]: https://github.com/jekyll
+### Tools
+- Docker / docker-compose
+- Vagrant
+- AWS
+- - CloudFormation
+- - 3 tier applications
+- - CICD
+- VSCode
+- Vim
+- Intellij
+

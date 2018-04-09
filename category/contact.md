@@ -3,4 +3,4 @@ layout: category
 title: Contact Me
 ---
 
-stuff
+Coming soon
