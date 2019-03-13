@@ -13,11 +13,7 @@
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.7.1",
-    "bootstrap": "^3.3.7",
-    "browser-sync": "^2.13.0",
-    "eleventy": "^0.2.0",
-    "font-awesome": "^4.6.3",
-    "jquery": "^1.11.3",
+    "less": "^3.9.0",
     "parcel-bundler": "^1.12.1"
   }
 }
