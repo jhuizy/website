@@ -7,7 +7,9 @@
     "type": "MIT"
   },
   "scripts": {
-    "start": "parcel index.html"
+    "parcel": "parcel _site/index.html",
+    "eleventy": "eleventy --input=./site",
+    "start": "npm run eleventy && npm run parcel"
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.7.1",
