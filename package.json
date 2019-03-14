@@ -7,12 +7,15 @@
     "type": "MIT"
   },
   "scripts": {
-    "parcel": "parcel _site/index.html",
-    "eleventy": "eleventy --input=./site",
-    "start": "npm run eleventy && npm run parcel"
+    "parcel": "parcel _site/*.html",
+    "eleventy": "eleventy --input=./site --watch",
+    "start": "npm run eleventy && npm run parcel",
+    "clean": "rm -rf _site && rm -rf dist",
+    "build": "eleventy --input=./site && parcel build _site/*.html"
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.7.1",
+    "cssnano": "^4.1.10",
     "less": "^3.9.0",
     "parcel-bundler": "^1.12.1"
   }
