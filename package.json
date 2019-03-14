@@ -11,12 +11,16 @@
     "eleventy": "eleventy --input=./site --watch",
     "start": "npm run eleventy && npm run parcel",
     "clean": "rm -rf _site && rm -rf dist",
-    "build": "eleventy --input=./site && parcel build _site/*.html"
+    "build": "eleventy --input=./site && parcel build _site/*.html",
+    "build:dev": "eleventy --input=./site && parcel build _site/*.html --public-url ./"
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.7.1",
     "cssnano": "^4.1.10",
     "less": "^3.9.0",
     "parcel-bundler": "^1.12.1"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
   }
 }
