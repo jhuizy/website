@@ -6,11 +6,11 @@ bg: /img/about-bg.jpg
 nav: True
 ---
 
-# def intro():
+# Intro
 
-I am a software developer from Perth, WA. I am insterested in all parts of the web development lifecycle, from spinning up infrastructure to UI design. I enjoy writing code in strongly typed, functional programming languages (okay, just Haskell) but have experience in a wide variety of languages and frameworks. I am currently interested programming languages and how to write and verify correct and efficient programs.
+I am a software developer from Perth, WA. I am insterested in all parts of the web development lifecycle, from spinning up infrastructure to UI design. I enjoy writing code in strongly typed, functional programming languages (okay, just Haskell) but have experience in a wide variety of languages and frameworks. I am most comfortable working from the CLI of either Mac OS or linux.
 
-# skills :: [Skill] 
+# Skills
 
 ### Frameworks and libraries I happen to know (ie. things I have done)
 
@@ -58,5 +58,5 @@ I am a software developer from Perth, WA. I am insterested in all parts of the w
 
 - Sports
 - Piano
-- Food
-- Beer
+- Food (I am a foodie)
+- Craft Beer
