@@ -1,26 +1,23 @@
 {
   "name": "website",
-  "title": "Website",
   "version": "1.0.0",
-  "author": "jhuizy",
-  "license": {
-    "type": "MIT"
-  },
+  "description": "My website",
+  "main": "index.js",
   "scripts": {
-    "parcel": "parcel _site/*.html",
-    "eleventy": "eleventy --input=./site --watch",
-    "start": "npm run eleventy && npm run parcel",
-    "clean": "rm -rf _site && rm -rf dist",
-    "build": "eleventy --input=./site && parcel build _site/*.html",
-    "build:dev": "eleventy --input=./site && parcel build _site/*.html --public-url ./"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "devDependencies": {
-    "@11ty/eleventy": "^0.7.1",
-    "cssnano": "^4.1.10",
-    "less": "^3.9.0",
-    "parcel-bundler": "^1.12.1"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhuizy/website.git"
   },
-  "dependencies": {
-    "jquery": "^3.3.1"
-  }
+	"dependencies": {
+		"gatsby": "^2.0.0"
+	},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhuizy/website/issues"
+  },
+  "homepage": "https://github.com/jhuizy/website#readme"
 }
